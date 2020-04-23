@@ -1,0 +1,30 @@
+GIT
+  remote: https://github.com/madejejej/rollbar-gem.git
+  revision: 325cb61494785d6a8710b33aab6965e79c84bec3
+  ref: 325cb61
+  specs:
+    rollbar (2.24.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    connection_pool (2.2.2)
+    rack (2.2.2)
+    rack-protection (2.0.8.1)
+      rack
+    redis (4.1.3)
+    sidekiq (6.0.7)
+      connection_pool (>= 2.2.2)
+      rack (~> 2.0)
+      rack-protection (>= 2.0.0)
+      redis (>= 4.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rollbar!
+  sidekiq
+
+BUNDLED WITH
+   2.1.4
